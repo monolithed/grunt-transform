@@ -1,5 +1,5 @@
 /*!
- * grunt-mocha-client tests
+ * grunt-transform tests
  *
  * @author Abashkin Alexander <monolithed@gmail.com>
  * @license MIT, 2015
