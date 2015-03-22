@@ -31,6 +31,7 @@ _Run this task with the `grunt transform` command._
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
+
 ### Options
 
 #### tree
@@ -209,6 +210,7 @@ catch (error) {
 ```
 grunt test
 ```
+
 
 ### License
 
