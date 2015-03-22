@@ -1,0 +1,47 @@
+{
+	"name"   : "grunt-transform",
+	"version": "0.0.1",
+	"author" : "Abashkin Alexander <monolithed@gmail.com>",
+	"homepage": "https://github.com/monolithed/grunt-transform.git",
+
+	"description": "Grunt task to traverse and transform the ECMAScript code",
+
+	"keywords": [ "grunt", "esprima", "espree", "ecmascript", "traverse", "transform", "parser", "alter", "ast" ],
+
+	"man": "README.md",
+
+	"engines": {
+		"node": ">=0.10.28"
+	},
+
+	"repository": {
+		"type": "git",
+		"url" :  "https://github.com/monolithed/grunt-transform.git"
+	},
+
+	"bugs": {
+		"url": "https://github.com/monolithed/grunt-transform/issues"
+	},
+
+	"scripts": {
+		"test": "grunt test"
+	},
+
+	"dependencies": {
+		"grunt"       : "^0.4.5",
+		"espree"      : "^1.12.2",
+		"ast-traverse": "^0.1.1"
+	},
+
+	"devDependencies": {
+		"grunt-contrib-nodeunit": "^0.4.1",
+		"string-alter"          : "^0.7.3"
+	},
+
+	"licenses": [
+		{
+			"type": "MIT",
+			"url" : "http://www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
