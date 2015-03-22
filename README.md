@@ -34,7 +34,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 ### Options
 
 #### tree
-Type: `Object`
+Type: `Object` <br />
 Default: `{range: true}`
 
 A complete list of available options:
@@ -51,7 +51,7 @@ A complete list of available options:
 For more details see the [Esprima](http://esprima.org/doc/index.html) documentation
 
 #### features
-Type: `Object`
+Type: `Object` <br />
 Default: `{blockBindings: true}`
 
 A complete list of available ECMAScript 6 features:
@@ -86,7 +86,7 @@ For more details see the [Espree](http://npmjs.org/package/espree) documentation
 
 
 #### process
-Type: `Function (traverse, source)`
+Type: `Function (traverse, source)`<br />
 Default: `(traverse, source) => source;`
 
 This option as an advanced way to control the file contents that are created.
@@ -199,9 +199,9 @@ catch (error) {
 
 #### A list of popular ast transformers
 
-[falafel](https://www.npmjs.com/package/falafel)
-[burrito](https://www.npmjs.com/package/burrito)
-[string-alter](https://www.npmjs.com/package/string-alter)
+[falafel](https://www.npmjs.com/package/falafel) <br />
+[burrito](https://www.npmjs.com/package/burrito) <br />
+[string-alter](https://www.npmjs.com/package/string-alter) <br />
 
 
 ### Tests
@@ -216,11 +216,11 @@ MIT
 
 
 ### Links
-[Esprima online parser](http://esprima.org/demo/parse.html)
-[Esprima documentation](http://esprima.org/doc/index.html)
-[Espree](https://www.npmjs.com/package/espree)
-[Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search)
-[Tree traversal](http://en.wikipedia.org/wiki/Tree_traversal)
+[Esprima online parser](http://esprima.org/demo/parse.html) <br />
+[Esprima documentation](http://esprima.org/doc/index.html) <br />
+[Espree](https://www.npmjs.com/package/espree) <br />
+[Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) <br />
+[Tree traversal](http://en.wikipedia.org/wiki/Tree_traversal) <br />
 
 
 Task submitted by [Alexander Abashkin](https://github.com/monolithed)
