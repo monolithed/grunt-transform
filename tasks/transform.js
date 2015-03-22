@@ -14,7 +14,7 @@ var espree = require('espree'),
 
 
 module.exports = function (grunt) {
-	grunt.registerMultiTask('transform', 'Sting alter', function () {
+	grunt.registerMultiTask('transform', 'ECMAScript transformation', function () {
 		var options = this.options({
 			tree: {
 				range: true
